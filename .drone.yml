@@ -1,4 +1,4 @@
 build:
-  image: golang:1.5
+  image: golang:latest
   commands:
     - go run hh.go
