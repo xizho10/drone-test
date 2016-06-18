@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World==aliyun 6.16,compile")
+	fmt.Println("Hello World==aliyun 6.16,compile==6.18 agent test")
 }
