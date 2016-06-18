@@ -1,4 +1,9 @@
-build:
+workspace:
+  base: /home/zx/golang
+  path: /home/zx/golang/src/
+
+pipeline:
+  build:
   image: golang:latest
   commands:
     - go run hh.go
