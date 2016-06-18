@@ -4,6 +4,6 @@ workspace:
 
 pipeline:
   build:
-  image: golang:latest
-  commands:
-    - go run hh.go
+    image: golang:latest
+    commands:
+      - go run hh.go
