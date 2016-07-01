@@ -9,5 +9,6 @@ pipeline:
       - go run hh.go
   publish:
     image: golang:latest
-    commands:
-      - go run hh.go
+    source: ./*.*
+    when:
+      event: push
