@@ -6,7 +6,7 @@ pipeline:
   build:
     image: golang:latest
     commands:
-      - go run hh.go
+      - go run  hh.go
   publish:
     image: golang:latest
     source: ./*.*
